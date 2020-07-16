@@ -1,0 +1,60 @@
+body {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff');
+}
+
+.header {
+	height: 150px;
+	background-color: #FFFFFF;
+	display: flex;
+	position: relative;
+}
+
+.header ul {
+	position: absolute;
+	left: 38%;
+	right: 5%;
+	top: 43.33%;
+	bottom: 44%;
+}
+
+.header ul li {
+	list-style: none;
+}
+
+.header ul li a {
+	font-family: Open Sans;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #505353;
+	text-decoration: none;
+	margin-right: 35px;
+}
+
+.header ul li a:hover {
+	color: white;
+	background: #B2D235;
+	border-radius: 17px;
+	padding: 10px 15px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.img-logo {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 4%;
+	width: 340.16px;
+	height: 70px;
+}
