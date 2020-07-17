@@ -5,7 +5,7 @@ body {
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff');
+  src: url('../font/Open Sans.woff');
 }
 
 .header {
@@ -16,9 +16,7 @@ body {
 }
 
 .header ul li a {
-  font-family: Open Sans;
-  font-weight: bold;
-  font-size: 14px;
+  font: bold 14px Open Sans;
   text-transform: uppercase;
   color: #505353;
   margin-right: 35px;
