@@ -24,17 +24,12 @@ body {
 	bottom: 44%;
 }
 
-.header ul li {
-	list-style: none;
-}
-
 .header ul li a {
 	font-family: Open Sans;
 	font-weight: bold;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #505353;
-	text-decoration: none;
 	margin-right: 35px;
 }
 
