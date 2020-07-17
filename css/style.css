@@ -13,6 +13,7 @@ body {
 	background-color: #FFFFFF;
 	display: flex;
 	position: relative;
+	align-items: center;
 }
 
 .header ul {
@@ -47,14 +48,12 @@ body {
 .menu {
 	display: flex;
 	flex-direction: row;
-	margin-top: auto;
-	margin-bottom: auto;
+	align-items: center;
 }
 
 .img-logo {
-	margin-top: auto;
-	margin-bottom: auto;
 	padding-left: 4%;
 	width: 340.16px;
 	height: 70px;
 }
+
