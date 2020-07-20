@@ -352,3 +352,87 @@ span.close {
   align-items: center;
   justify-content: center;
 }
+
+.reason {
+  margin-top: 116px;
+  height: 740px;
+  background-image: url("../image/Rectangle 17.png");
+  position: relative;
+}
+
+.reason .img-lap {
+  width: 478.32px;
+  height: 478.32px;
+  position: absolute;
+  margin-top: -12.25%;
+}
+
+.reason .img-trans {
+  width: 792px;
+  height: 544px;
+  position: absolute;
+  margin: 10% 0 0 45%;
+}
+
+.txt-reason {
+  width: 560px;
+  position: absolute;
+  margin: 20% 0 0 7%;
+}
+
+.txt-reason .title-reason {
+  font: bold 70px UTM BryantLG;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.txt-reason ul {
+  width: 550px;
+}
+
+.txt-reason ul li {
+  display: flex;
+  margin-top: 25px;
+}
+
+.txt-reason li img {
+  width: 26px;
+  height: 35px;
+}
+
+.txt-reason li span {
+  font: 20px UTM BryantLG;
+  color: #FFFFFF;
+  margin-left: 11px;
+}
+
+.learn {
+  height: 500px;
+  background-image: url("../image/Group 7.png");
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.learn .txt-learn {
+  width: 705px;
+  height: 158px;
+  font: bold 60px UTM BryantLG;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 124px;
+}
+
+.btn-start-learn {
+  width: 377px;
+  height: 70px;
+  background-color: #FFFFFF;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  margin: 14px auto 0 auto;
+}
+
+.btn-start-learn a {
+  font: bold 30px UTM BryantLG;
+  color: #90AB26;
+}
