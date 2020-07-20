@@ -217,11 +217,12 @@ span.close {
 .courses .block-courses {
   display: flex;
   flex-direction: row;
+  width: 1200px;
   margin: -110px 0 0 105px;
 }
 
 .courses .content-courses {
-  width: 370px;
+  width: 33%;
   height: 470px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
@@ -277,7 +278,7 @@ span.close {
   margin: 8% 0 0 22%;
 }
 
-.content-courses .foot .btn-take a {
+.foot .btn-take a {
   font: bold 18px UTM BryantLG;
   color: #FFFFFF;
 }
@@ -285,6 +286,7 @@ span.close {
 .orther-courses .block-courses {
   display: flex;
   flex-direction: row;
+  width: 1200px;
   margin-left: 105px;
 }
 
@@ -316,7 +318,7 @@ span.close {
 }
 
 .orther-courses .content-courses {
-  width: 370px;
+  width: 33%;
   height: 395px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
