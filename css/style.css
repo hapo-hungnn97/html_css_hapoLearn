@@ -8,6 +8,11 @@ body {
   src: url('../font/Open Sans.woff');
 }
 
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('../font/UTM BryantLG.ttf');
+}
+
 .header {
   height: 150px;
   background-color: #FFFFFF;
@@ -40,4 +45,166 @@ body {
   padding-left: 4%;
   width: 340.16px;
   height: 70px;
+}
+
+.banner {
+  height: 655px;
+  background-image: url("../image/Rectangle 1.png");
+}
+
+.block-banner {
+  padding: 14% 0 0 4%;
+}
+
+.txt-title {
+  font-size: 50px;
+  letter-spacing: -0.05em;
+  color: #11114E;
+}
+
+.img-title {
+  width: 45px;
+  height: 40px;
+}
+
+.txt-banner {
+  font: bold 50px UTM BryantLG;
+  color: #11114E;
+  margin-top: 1px;
+}
+
+.txt-desc {
+  font: 20px UTM BryantLG;
+  letter-spacing: -0.05em;
+  color: #505353;
+  width: 249px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.btn-start {
+  background: #B2D235;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  font: bold 30px UTM BryantLG;
+  width: 377px;
+  height: 70px;
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-start a {
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: -0.05em;
+}
+
+.block-messenger {
+  font: 600 12px Open Sans;
+  position: fixed;
+  bottom: 90px;
+  right: 60px;
+  z-index: 1;
+}
+
+.toggle-class {
+  display: none;
+}
+
+.messenger {
+  background-color: #2774DF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.block-chat {
+  width: 360px;
+  height: 190px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  display: flex ;
+  flex-direction: row;
+}
+
+.img-hapo {
+  width: 28px;
+  height: 28px;
+  margin: 17% 0 0 5%;
+}
+
+.block-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.web-name {
+  font: 600 12px;
+  color: #7F7F7F;
+  margin: 5% 0 0 8% ;
+}
+
+.block-alert {
+  background-color: #F1F0F0;
+  width: 256px;
+  height: 53px;
+  border-radius: 15px;
+  margin: 4% 0 0 3%;
+  display: flex;
+  align-items: center;
+}
+
+.text-alert {
+  color: #505353;
+  margin-left: 8%;
+}
+
+.login-mess {
+  width: 276px;
+  height: 37px;
+  background-color: #3184F7;
+  border-radius: 10px;
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-mess {
+  width: 17px;
+  height: 17px;
+}
+
+.txt-login {
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 3%;
+}
+
+.txt-chat {
+  text-align: center;
+  color: #B3B3B3;
+  margin-top: 3.5%;
+}
+
+span.close {
+  background-color: #C4C4C4;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
