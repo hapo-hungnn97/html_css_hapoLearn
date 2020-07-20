@@ -208,3 +208,147 @@ span.close {
   justify-content: center;
   cursor: pointer;
 }
+
+.header-courses {
+  height: 170px;
+  background-color: #E5E5E5;
+}
+
+.courses .block-courses {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: -110px 0 0 105px;
+}
+
+.courses .content-courses {
+  width: 33%;
+  height: 470px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-left: 30px;
+  letter-spacing: -0.05em;
+}
+
+.courses .content-courses .head {
+  height: 215px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0 0;
+}
+
+.background-left {
+  background-color: #3F6185;
+}
+
+.background-middle {
+  background-color: #DC594C;
+}
+
+.background-right {
+  background-color: #556598;
+}
+
+.img-courses {
+  width: 226px;
+  height: 120px;
+}
+
+.content-courses .foot .txt-content {
+  font: bold 30px UTM BryantLG;
+  color: #B2D235;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.content-courses .foot .txt-des {
+  font: bold 14px UTM BryantLG;
+  text-align: center;
+  color: #505353;
+  line-height: 20px;
+  padding: 0 39px;
+  margin-top: 10px;
+}
+
+.content-courses .foot .btn-take {
+  background: #B2D235;
+  box-shadow: inset 0 1.5px 2px #6F8710;
+  border-radius: 22px;
+  width: 200px;
+  height: 42px;
+  margin: 8% 0 0 22%;
+}
+
+.foot .btn-take a {
+  font: bold 18px UTM BryantLG;
+  color: #FFFFFF;
+}
+
+.orther-courses .block-courses {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin-left: 105px;
+}
+
+.orther-courses .title-courses {
+  font: bold 80px UTM BryantLG;
+  color: #11114E;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.orther-courses .title-courses hr {
+  width: 480px;
+  height: 6px;
+  background-color: #B2D235;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.background-left-other {
+  background-color: #24ABE2;
+}
+
+.background-middle-other {
+  background-color: #E14E40;
+}
+
+.background-right-other {
+  background-color: #1B75BB;
+}
+
+.orther-courses .content-courses {
+  width: 33%;
+  height: 395px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+.orther-courses .content-courses .head {
+  height: 194px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0 0;
+}
+
+.all-courses {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.all-courses a {
+  font: bold 40px UTM BryantLG;
+  letter-spacing: -0.02em;
+  color: #90AB26;
+}
+
+.all-courses img {
+  width: 47.09px;
+  height: 26.08px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
