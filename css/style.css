@@ -208,3 +208,144 @@ span.close {
   justify-content: center;
   cursor: pointer;
 }
+
+.header-courses {
+  height: 170px;
+  background-color: #E5E5E5;
+}
+
+.courses .block-courses {
+  display: flex;
+  flex-direction: row;
+  margin-left: 105px;
+  margin-top: -110px;
+}
+
+.courses .content-courses {
+  width: 370px;
+  height: 470px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-left: 30px;
+  letter-spacing: -0.05em;
+}
+
+.courses .content-courses .head {
+  height: 215px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-html {
+  background-color: #3F6185;
+}
+
+.background-laravel {
+  background-color: #DC594C;
+}
+
+.background-php {
+  background-color: #556598;
+}
+
+.img-courses {
+  width: 226px;
+  height: 120px;
+}
+
+.content-courses .foot .txt-content {
+  font: bold 30px UTM BryantLG;
+  color: #B2D235;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.content-courses .foot .txt-des {
+  font: bold 14px UTM BryantLG;
+  text-align: center;
+  color: #505353;
+  line-height: 20px;
+  padding: 0 39px;
+  margin-top: 10px;
+}
+
+.content-courses .foot .btn-take {
+  background: #B2D235;
+  box-shadow: inset 0px 1.5px 2px #6F8710;
+  border-radius: 22px;
+  width: 200px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8% 0 0 22%;
+}
+
+.content-courses .foot .btn-take a {
+  font: bold 18px UTM BryantLG;
+  color: #FFFFFF;
+}
+
+.orther-courses .block-courses {
+  display: flex;
+  flex-direction: row;
+  margin-left: 105px;
+}
+
+.orther-courses .title-courses {
+  font: bold 80px UTM BryantLG;
+  color: #11114E;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.orther-courses .title-courses hr {
+  width: 480px;
+  height: 6px;
+  background-color: #B2D235;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.background-css {
+  background-color: #24ABE2;
+}
+
+.background-ruby {
+  background-color: #E14E40;
+}
+
+.background-java {
+  background-color: #1B75BB;
+}
+
+.orther-courses .content-courses {
+  width: 370px;
+  height: 395px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+.orther-courses .content-courses .head {
+  height: 194px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-courses {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.all-courses a {
+  font: bold 40px UTM BryantLG;
+  letter-spacing: -0.02em;
+  color: #90AB26;
+}
