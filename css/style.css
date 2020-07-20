@@ -68,7 +68,7 @@ body {
   height: 40px;
 }
 
-.txt-banner{
+.txt-banner {
   font: bold 50px UTM BryantLG;
   color: #11114E;
   margin-top: 1px;
@@ -102,7 +102,7 @@ body {
   letter-spacing: -0.05em;
 }
 
-.block-messenger{
+.block-messenger {
   font: 600 12px Open Sans;
   position: fixed;
   bottom: 90px;
