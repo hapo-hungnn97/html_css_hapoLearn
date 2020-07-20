@@ -239,15 +239,15 @@ span.close {
   justify-content: center;
 }
 
-.background-html {
+.background-left {
   background-color: #3F6185;
 }
 
-.background-laravel {
+.background-middle {
   background-color: #DC594C;
 }
 
-.background-php {
+.background-right {
   background-color: #556598;
 }
 
@@ -310,29 +310,29 @@ span.close {
   margin-top: 15px;
 }
 
-.background-css {
+.background-left-other {
   background-color: #24ABE2;
 }
 
-.background-ruby {
+.background-middle-other {
   background-color: #E14E40;
 }
 
-.background-java {
+.background-right-other {
   background-color: #1B75BB;
 }
 
 .orther-courses .content-courses {
   width: 370px;
   height: 395px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   margin-left: 30px;
 }
 
 .orther-courses .content-courses .head {
   height: 194px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
