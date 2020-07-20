@@ -217,8 +217,7 @@ span.close {
 .courses .block-courses {
   display: flex;
   flex-direction: row;
-  margin-left: 105px;
-  margin-top: -110px;
+  margin: -110px 0 0 105px;
 }
 
 .courses .content-courses {
