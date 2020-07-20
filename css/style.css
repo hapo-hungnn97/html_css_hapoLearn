@@ -110,6 +110,10 @@ body {
   z-index: 1;
 }
 
+.toggle-class {
+  display: none;
+}
+
 .messenger {
   background-color: #2774DF;
   width: 60px;
@@ -123,87 +127,88 @@ body {
   right: 30px;
 }
 
-.block-title {
-  padding-left: 4%;
-  padding-top: 14%;
-}
-
 .block-chat {
-  /* display: none; */
   width: 360px;
   height: 190px;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
   border-radius: 23px;
-  display: flex;
+  display: flex ;
+  flex-direction: row;
 }
 
-.web-name {
-  font-weight: 600;
-  font-size: 12px;
-  color: #7F7F7F;
-  letter-spacing: -0.02em;
-  margin-left: 15%;
-  margin-top: 5%;
-}
-
-.logo-hapo {
-  margin-left: -28%;
+.img-hapo {
+  width: 28px;
+  height: 28px;
+  margin-left: 5%;
   margin-top: 17%;
 }
 
+.block-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.web-name {
+  font: 600 12px;
+  color: #7F7F7F;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
 .block-alert {
+  background-color: #F1F0F0;
   width: 256px;
   height: 53px;
-  margin-top: 4px;
-  background: #F1F0F0;
   border-radius: 15px;
+  margin-left: 3%;
+  margin-top: 4%;
   display: flex;
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 12%;
+  align-items: center;
 }
 
 .text-alert {
-  letter-spacing: -0.02em;
   color: #505353;
-  margin-top: auto;
-  margin-bottom: auto;
   margin-left: 8%;
 }
 
 .login-mess {
   width: 276px;
   height: 37px;
-  background: #3184F7;
+  background-color: #3184F7;
   border-radius: 10px;
-  /* position: absolute; */
-  margin-left: 10%;
-  margin-top: 31%;
+  margin-top: 6%;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-mess {
-  margin-left: auto;
-  margin-bottom: auto;
-  margin-top: auto;
+  width: 17px;
+  height: 17px;
 }
 
 .txt-login {
   text-align: center;
-  letter-spacing: -0.02em;
   color: #FFFFFF;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: auto;
   margin-left: 3%;
 }
 
 .txt-chat {
   text-align: center;
-  letter-spacing: -0.02em;
   color: #B3B3B3;
-  /* position: absolute; */
-  margin-top: 44%;
-  margin-left: 22%;
+  margin-top: 3.5%;
+}
+
+span.close {
+  background-color: #C4C4C4;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
