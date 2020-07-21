@@ -4,13 +4,13 @@ body {
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../font/Open Sans.woff');
+  font-family: 'Open-Sans';
+  src: url('../font/Open-Sans.woff');
 }
 
 @font-face {
-  font-family: 'UTM BryantLG';
-  src: url('../font/UTM BryantLG.ttf');
+  font-family: 'UTM-BryantLG';
+  src: url('../font/UTM-BryantLG.ttf');
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 }
 
 .header ul li a {
-  font: bold 14px Open Sans;
+  font: bold 14px Open-Sans;
   text-transform: uppercase;
   color: #505353;
   margin-right: 35px;
@@ -68,13 +68,13 @@ body {
 }
 
 .txt-banner {
-  font: bold 50px UTM BryantLG;
+  font: bold 50px UTM-BryantLG;
   color: #11114E;
   margin-top: 1px;
 }
 
 .txt-desc {
-  font: 20px UTM BryantLG;
+  font: 20px UTM-BryantLG;
   letter-spacing: -0.05em;
   color: #505353;
   width: 249px;
@@ -86,7 +86,7 @@ body {
   background: #B2D235;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font: bold 30px UTM BryantLG;
+  font: bold 30px UTM-BryantLG;
   width: 377px;
   height: 70px;
   margin-top: 26px;
@@ -102,7 +102,7 @@ body {
 }
 
 .block-messenger {
-  font: 600 12px Open Sans;
+  font: 600 12px Open-Sans;
   position: fixed;
   bottom: 90px;
   right: 60px;
@@ -254,14 +254,14 @@ span.close {
 }
 
 .content-courses .foot .txt-content {
-  font: bold 30px UTM BryantLG;
+  font: bold 30px UTM-BryantLG;
   color: #B2D235;
   text-align: center;
   margin-top: 25px;
 }
 
 .content-courses .foot .txt-des {
-  font: bold 14px UTM BryantLG;
+  font: bold 14px UTM-BryantLG;
   text-align: center;
   color: #505353;
   line-height: 20px;
@@ -279,7 +279,7 @@ span.close {
 }
 
 .foot .btn-take a {
-  font: bold 18px UTM BryantLG;
+  font: bold 18px UTM-BryantLG;
   color: #FFFFFF;
 }
 
@@ -290,8 +290,9 @@ span.close {
   margin-left: 105px;
 }
 
-.orther-courses .title-courses {
-  font: bold 80px UTM BryantLG;
+.orther-courses .title-courses,
+.statistic .title-statistic {
+  font: bold 80px UTM-BryantLG;
   color: #11114E;
   text-align: center;
   margin-top: 110px;
@@ -337,7 +338,7 @@ span.close {
 }
 
 .all-courses a {
-  font: bold 40px UTM BryantLG;
+  font: bold 40px UTM-BryantLG;
   letter-spacing: -0.02em;
   color: #90AB26;
 }
@@ -351,4 +352,117 @@ span.close {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.reason {
+  margin-top: 116px;
+  height: 740px;
+  background-image: url("../image/Rectangle17.png");
+  position: relative;
+}
+
+.reason .img-lap {
+  width: 478.32px;
+  height: 478.32px;
+  position: absolute;
+  margin-top: -12.25%;
+}
+
+.reason .img-trans {
+  width: 792px;
+  height: 544px;
+  position: absolute;
+  margin: 10% 0 0 45%;
+}
+
+.txt-reason {
+  width: 560px;
+  position: absolute;
+  margin: 20% 0 0 7%;
+}
+
+.txt-reason .title-reason {
+  font: bold 70px UTM-BryantLG;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.txt-reason ul {
+  width: 550px;
+}
+
+.txt-reason ul li {
+  display: flex;
+  margin-top: 25px;
+}
+
+.txt-reason li img {
+  width: 26px;
+  height: 35px;
+}
+
+.txt-reason li span {
+  font: 20px UTM-BryantLG;
+  color: #FFFFFF;
+  margin-left: 11px;
+}
+
+.learn {
+  height: 500px;
+  background-image: url("../image/Group7.png");
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.learn .txt-learn {
+  width: 705px;
+  height: 158px;
+  font: bold 60px UTM-BryantLG;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 124px;
+}
+
+.btn-start-learn {
+  width: 377px;
+  height: 70px;
+  background-color: #FFFFFF;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  margin: 14px auto 0 auto;
+}
+
+.btn-start-learn a {
+  font: bold 30px UTM-BryantLG;
+  color: #90AB26;
+}
+
+.statistic .title-statistic hr {
+  width: 276px;
+  height: 6px;
+  background-color: #B2D235;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.content-statistic {
+  font: bold 60px UTM-BryantLG;
+  display: flex;
+  flex-direction: row;
+}
+
+.block-statistic {
+  width: 33%;
+}
+
+.content-statistic .title {
+  color: #505353;
+  text-align: center;
+}
+
+.content-statistic .data {
+  color: #B2D235;
+  margin-top: 26px;
+  text-align: center;
 }
