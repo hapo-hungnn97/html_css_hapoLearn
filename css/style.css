@@ -290,7 +290,8 @@ span.close {
   margin-left: 105px;
 }
 
-.orther-courses .title-courses {
+.orther-courses .title-courses,
+.statistic .title-statistic {
   font: bold 80px UTM BryantLG;
   color: #11114E;
   text-align: center;
@@ -435,4 +436,33 @@ span.close {
 .btn-start-learn a {
   font: bold 30px UTM BryantLG;
   color: #90AB26;
+}
+
+.statistic .title-statistic hr {
+  width: 276px;
+  height: 6px;
+  background-color: #B2D235;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.content-statistic {
+  font: bold 60px UTM BryantLG;
+  display: flex;
+  flex-direction: row;
+}
+
+.block-statistic {
+  width: 33%;
+}
+
+.content-statistic .title {
+  color: #505353;
+  text-align: center;
+}
+
+.content-statistic .data {
+  color: #B2D235;
+  margin-top: 26px;
+  text-align: center;
 }
