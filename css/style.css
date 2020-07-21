@@ -479,7 +479,6 @@ span.close {
 .feedback .title-feedback p {
   width: 705px;
   font: 25px UTM-BryantLG;
-  font-size: 25px;
   text-align: center;
   color: #505353;
   margin-left: 367px;
@@ -596,7 +595,6 @@ span.close {
   flex-wrap: wrap;
   height: 210px;
   margin-top: 45px;
-
 }
 
 .block-menu li {
