@@ -291,7 +291,8 @@ span.close {
 }
 
 .orther-courses .title-courses,
-.statistic .title-statistic {
+.statistic .title-statistic,
+.feedback .title-feedback {
   font: bold 80px UTM-BryantLG;
   color: #11114E;
   text-align: center;
@@ -465,4 +466,159 @@ span.close {
   color: #B2D235;
   margin-top: 26px;
   text-align: center;
+}
+
+.feedback .title-feedback hr {
+  width: 328px;
+  height: 6px;
+  background-color: #B2D235;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.feedback .title-feedback p {
+  width: 705px;
+  font: 25px UTM-BryantLG;
+  font-size: 25px;
+  text-align: center;
+  color: #505353;
+  margin-left: 367px;
+}
+
+.slide-cmt {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 122px;
+  position: relative;
+}
+
+.element-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.element-cmt {
+  background-image: url("../image/Union.png");
+  width: 585px;
+  height: 200px;
+  margin: 0 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.element-cmt .hr {
+  width: 5px;
+  height: 108px;
+  background-color: #D9DADC;
+  margin: -21px 0 0 21px;
+}
+
+.block-cmt {
+  margin-left: 20px;
+}
+
+.block-cmt p {
+  width: 497px;
+  height: 89px;
+  font: 16px UTM-BryantLG;
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+
+.block-account {
+  display: flex;
+  flex-direction: row;
+  margin-left: 38px;
+}
+
+.block-account .block-infor {
+  margin-left: 10px;
+}
+
+.block-account .txt-name {
+  font: bold 20px UTM-BryantLG;
+  color: #11114E;
+}
+
+.block-account .txt-lang {
+  font: bold 16px UTM-BryantLG;
+  color: #505353;
+}
+
+.block-account i {
+  font-size: 14px;
+  color: #F2C54F;
+}
+
+.left {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.right {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: 100%;
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.footer {
+  background-color: #505353;
+  height: 308px; 
+  margin-top: 136px;
+}
+
+.footer .foot {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-logo {
+  margin: 46px 0 0 132px;
+}
+
+.footer .txt-logo {
+  font: 20px UTM-BryantLG;
+  color: #FFFFFF;
+  position: absolute;
+  margin-left: 66px;
+}
+
+.block-menu ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 210px;
+  margin-top: 45px;
+
+}
+
+.block-menu li {
+  margin: 20px 0 0 109px;
+}
+
+.block-menu a {
+  font: bold 23px UTM-BryantLG;
+  color: #FFFFFF;
+}
+
+.block-contact {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.block-contact img {
+  margin-left: 35px;
+}
+
+.copy-rights {
+  background-color: #454545;
+  height: 38px;
 }
