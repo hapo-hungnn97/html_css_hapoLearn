@@ -4,13 +4,13 @@ body {
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../font/Open Sans.woff');
+  font-family: 'Open-Sans';
+  src: url('../font/Open-Sans.woff');
 }
 
 @font-face {
-  font-family: 'UTM BryantLG';
-  src: url('../font/UTM BryantLG.ttf');
+  font-family: 'UTM-BryantLG';
+  src: url('../font/UTM-BryantLG.ttf');
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 }
 
 .header ul li a {
-  font: bold 14px Open Sans;
+  font: bold 14px Open-Sans;
   text-transform: uppercase;
   color: #505353;
   margin-right: 35px;
@@ -68,13 +68,13 @@ body {
 }
 
 .txt-banner {
-  font: bold 50px UTM BryantLG;
+  font: bold 50px UTM-BryantLG;
   color: #11114E;
   margin-top: 1px;
 }
 
 .txt-desc {
-  font: 20px UTM BryantLG;
+  font: 20px UTM-BryantLG;
   letter-spacing: -0.05em;
   color: #505353;
   width: 249px;
@@ -86,7 +86,7 @@ body {
   background: #B2D235;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font: bold 30px UTM BryantLG;
+  font: bold 30px UTM-BryantLG;
   width: 377px;
   height: 70px;
   margin-top: 26px;
@@ -102,7 +102,7 @@ body {
 }
 
 .block-messenger {
-  font: 600 12px Open Sans;
+  font: 600 12px Open-Sans;
   position: fixed;
   bottom: 90px;
   right: 60px;
@@ -254,14 +254,14 @@ span.close {
 }
 
 .content-courses .foot .txt-content {
-  font: bold 30px UTM BryantLG;
+  font: bold 30px UTM-BryantLG;
   color: #B2D235;
   text-align: center;
   margin-top: 25px;
 }
 
 .content-courses .foot .txt-des {
-  font: bold 14px UTM BryantLG;
+  font: bold 14px UTM-BryantLG;
   text-align: center;
   color: #505353;
   line-height: 20px;
@@ -279,7 +279,7 @@ span.close {
 }
 
 .foot .btn-take a {
-  font: bold 18px UTM BryantLG;
+  font: bold 18px UTM-BryantLG;
   color: #FFFFFF;
 }
 
@@ -292,7 +292,7 @@ span.close {
 
 .orther-courses .title-courses,
 .statistic .title-statistic {
-  font: bold 80px UTM BryantLG;
+  font: bold 80px UTM-BryantLG;
   color: #11114E;
   text-align: center;
   margin-top: 110px;
@@ -338,7 +338,7 @@ span.close {
 }
 
 .all-courses a {
-  font: bold 40px UTM BryantLG;
+  font: bold 40px UTM-BryantLG;
   letter-spacing: -0.02em;
   color: #90AB26;
 }
@@ -382,7 +382,7 @@ span.close {
 }
 
 .txt-reason .title-reason {
-  font: bold 70px UTM BryantLG;
+  font: bold 70px UTM-BryantLG;
   text-align: center;
   color: #FFFFFF;
 }
@@ -402,7 +402,7 @@ span.close {
 }
 
 .txt-reason li span {
-  font: 20px UTM BryantLG;
+  font: 20px UTM-BryantLG;
   color: #FFFFFF;
   margin-left: 11px;
 }
@@ -418,7 +418,7 @@ span.close {
 .learn .txt-learn {
   width: 705px;
   height: 158px;
-  font: bold 60px UTM BryantLG;
+  font: bold 60px UTM-BryantLG;
   text-align: center;
   color: #FFFFFF;
   margin-top: 124px;
@@ -434,7 +434,7 @@ span.close {
 }
 
 .btn-start-learn a {
-  font: bold 30px UTM BryantLG;
+  font: bold 30px UTM-BryantLG;
   color: #90AB26;
 }
 
@@ -447,7 +447,7 @@ span.close {
 }
 
 .content-statistic {
-  font: bold 60px UTM BryantLG;
+  font: bold 60px UTM-BryantLG;
   display: flex;
   flex-direction: row;
 }
