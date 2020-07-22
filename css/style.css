@@ -50,9 +50,11 @@ body {
 .banner {
   height: 655px;
   background-image: url("../image/Rectangle 1.png");
+  background-size: cover;
 }
 
 .block-banner {
+  width: 570px;
   padding: 14% 0 0 4%;
 }
 
