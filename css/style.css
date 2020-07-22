@@ -1,5 +1,5 @@
 body {
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -217,8 +217,8 @@ span.close {
 .courses .block-courses {
   display: flex;
   flex-direction: row;
-  width: 1200px;
-  margin: -110px 0 0 105px;
+  width: 1111px;
+  margin: -110px 0 0 111px;
 }
 
 .courses .content-courses {
@@ -286,8 +286,8 @@ span.close {
 .orther-courses .block-courses {
   display: flex;
   flex-direction: row;
-  width: 1200px;
-  margin-left: 105px;
+  width: 1111px;
+  margin-left: 111px;
 }
 
 .orther-courses .title-courses,
@@ -363,17 +363,14 @@ span.close {
 }
 
 .reason .img-lap {
-  width: 478.32px;
-  height: 478.32px;
   position: absolute;
-  margin-top: -12.25%;
+  margin-top: -16%;
 }
 
 .reason .img-trans {
-  width: 792px;
-  height: 544px;
+  width: 700px;
   position: absolute;
-  margin: 10% 0 0 45%;
+  margin: 12% 0 0 47%;
 }
 
 .txt-reason {
@@ -383,7 +380,7 @@ span.close {
 }
 
 .txt-reason .title-reason {
-  font: bold 70px UTM-BryantLG;
+  font: bold 65px UTM-BryantLG;
   text-align: center;
   color: #FFFFFF;
 }
@@ -403,7 +400,7 @@ span.close {
 }
 
 .txt-reason li span {
-  font: 20px UTM-BryantLG;
+  font: 18px UTM-BryantLG;
   color: #FFFFFF;
   margin-left: 11px;
 }
@@ -487,8 +484,7 @@ span.close {
 .slide-cmt {
   display: flex;
   flex-direction: row;
-  margin: 0px 122px;
-  position: relative;
+  justify-content: center;
 }
 
 .element-parent {
@@ -498,9 +494,11 @@ span.close {
 
 .element-cmt {
   background-image: url("../image/Union.png");
+  background-repeat: no-repeat;
+  background-size:contain;
   width: 585px;
   height: 200px;
-  margin: 0 14px;
+  margin: 0 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -514,11 +512,10 @@ span.close {
 }
 
 .block-cmt {
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 .block-cmt p {
-  width: 497px;
   height: 89px;
   font: 16px UTM-BryantLG;
   letter-spacing: -0.05em;
@@ -554,17 +551,14 @@ span.close {
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 35%;
-  transform: translateY(-50%);
+  margin: 75px 0 0 -44%;
 }
 
 .right {
   width: 30px;
   height: 30px;
   position: absolute;
-  margin-left: 100%;
-  top: 35%;
-  transform: translateY(-50%);
+  margin: 75px 0 0 44%;
 }
 
 .footer {
