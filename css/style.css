@@ -62,6 +62,7 @@ body {
 .txt-title {
   font: bold 50px UTM-BryantLG;
   color: #11114E;
+  -webkit-text-stroke-width: 1px;
 }
 
 .img-title {
@@ -71,7 +72,7 @@ body {
 }
 
 .txt-banner {
-  font: 50px UTM-BryantLG;
+  font:  bold 50px UTM-BryantLG;
   color: #11114E;
   margin-top: 1px;
 }
@@ -101,7 +102,6 @@ body {
   font-size: 30px;
   color: #FFFFFF;
   letter-spacing: -0.05em;
-  -webkit-text-stroke-width: 1px;
 }
 
 .block-messenger {
@@ -366,14 +366,16 @@ span.close {
   margin-top: 116px;
   height: 740px;
   background-image: url("../image/Rectangle17.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
 }
 
 .reason .block-left {
+  width: 45%;
   display: flex;
   flex-direction: column;
-  margin-top: -14%;
 }
 
 .img-top {
@@ -383,16 +385,22 @@ span.close {
 .reason .img-lap {
   height: 478px;
   width: auto;
+  margin-top: -182px;
 }
 
 .txt-reason {
-  margin: 120px 0 0 60px;
+  height: 60%;
+  padding-left: 14%;
+}
+
+.block-right {
+  width: 55%;
 }
 
 .block-right .img-trans {
   height: 544px;
-  width: auto;
-  margin-top: 150px;
+  width: 85%;
+  margin: 150px 5% 0 10%;
 }
 
 .txt-reason .title-reason {
@@ -498,20 +506,20 @@ span.close {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
 }
 
 .element-parent {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-left: 10px;
+  margin-left: 30px;
+  align-items: center;
 }
 
 .element-cmt {
   background-image: url("../image/Union.png");
   background-repeat: no-repeat;
-  background-size: 550px 160px;
+  background-size: 560px 160px;
   height: 160px;
   width: 560px;
   display: inline-flex;
@@ -541,8 +549,11 @@ span.close {
 }
 
 .block-account {
-  display: flex;
+  width: 560px;
+  display: inline-flex;
   flex-direction: row;
+  justify-items: flex-start;
+  margin-left: 20px;
 }
 
 .block-account .block-infor {
@@ -568,13 +579,13 @@ span.close {
   width: 30px;
   height: 30px;
   position: absolute;
-  margin: 57px 0 0 -12px;
+  margin-left: -10px;
 }
 
 .img-right {
   width: 30px;
   height: 30px;
-  margin: -9px 0 0 -12px;
+  margin: -9px 0 0 5px;
 }
 
 .footer {
@@ -637,4 +648,5 @@ span.close {
   font: 15px UTM-BryantLG;
   background-color: #454545;
   height: 38px;
+  color: #FFFFFF;
 }
