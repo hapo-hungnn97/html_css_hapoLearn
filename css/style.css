@@ -95,12 +95,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.btn-start a {
-  font-size: 30px;
   color: #FFFFFF;
-  letter-spacing: -0.05em;
 }
 
 .block-messenger {
@@ -166,11 +161,13 @@ body {
 }
 
 .text-alert {
+  font-family: UTM-BryantLG;
   color: #505353;
   margin-left: 8%;
 }
 
 .login-mess {
+  font-family: UTM-BryantLG;
   width: 276px;
   height: 37px;
   background-color: #3184F7;
@@ -280,9 +277,6 @@ span.close {
   height: 42px;
   display: flex;
   margin: 5% auto;
-}
-
-.foot .btn-take a {
   font: bold 18px UTM-BryantLG;
   color: #FFFFFF;
 }
@@ -417,8 +411,8 @@ span.close {
 }
 
 .txt-reason li img {
-  width: 26px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
 }
 
 .txt-reason li span {
@@ -587,7 +581,7 @@ span.close {
 .img-right {
   width: 30px;
   height: 30px;
-  margin: -9px 0 0 5px;
+  margin: -9px 0 0 -6px;
 }
 
 .footer {
@@ -640,7 +634,7 @@ span.close {
   display: flex;
   align-items: center;
   width: 40%;
-  margin-left: 40px;
+  margin-left: 3%;
 }
 
 .block-contact img {
