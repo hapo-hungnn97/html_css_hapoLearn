@@ -309,7 +309,7 @@ span.close:hover {
   font: bold 80px UTM-BryantLG;
   color: #11114E;
   text-align: center;
-  margin-top: 110px;
+  margin-top: 50px;
   -webkit-text-stroke-width: 2px;
 }
 
@@ -608,6 +608,7 @@ span.close:hover {
   height: 30px;
   position: absolute;
   margin: -5px 0 0 -11px;
+  cursor: pointer;
 }
 
 .img-right {
@@ -615,12 +616,7 @@ span.close:hover {
   height: 30px;
   position: absolute;
   margin-left: 96%;
-}
-
-.img-left:hover,
-.img-right:hover {
-  width: 35px;
-  height: 35px;
+  cursor: pointer;
 }
 
 .footer {
@@ -683,8 +679,15 @@ span.close:hover {
 }
 
 .block-contact img {
+  width: 50px;
+  height: 50px;
   margin-left: 35px;
   display: flex;
+}
+
+.block-contact img:hover {
+  width: 55px;
+  height: 55px;
 }
 
 .copy-rights {
