@@ -25,7 +25,7 @@ body {
   font: bold 14px Open-Sans;
   text-transform: uppercase;
   color: #505353;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   border-radius: 17px;
   padding: 10px 15px;
 }
@@ -109,7 +109,7 @@ body {
   font: bold 12px Open-Sans;
   position: fixed;
   bottom: 90px;
-  right: 60px;
+  right: 50px;
   z-index: 1;
 }
 
@@ -217,9 +217,13 @@ span.close {
   cursor: pointer;
 }
 
+span.close:hover {
+  opacity: 0.8;
+}
+
 .header-courses {
   height: 170px;
-  background-color: #E5E5E5;
+  background-image: linear-gradient(white, #E5E5E5);
 }
 
 .courses .block-courses {
@@ -611,6 +615,12 @@ span.close {
   height: 30px;
   position: absolute;
   margin-left: 96%;
+}
+
+.img-left:hover,
+.img-right:hover {
+  width: 35px;
+  height: 35px;
 }
 
 .footer {
