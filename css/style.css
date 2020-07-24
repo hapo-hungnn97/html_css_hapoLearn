@@ -5,7 +5,7 @@ body {
 
 @font-face {
   font-family: 'Open-Sans';
-  src: url('../font/Open-Sans.woff');
+  src: url('../font/OpenSans-Regular.ttf');
 }
 
 @font-face {
@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  height: 150px;
+  height: 120px;
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -38,7 +38,7 @@ body {
 .menu {
   display: flex;
   flex-direction: row;
-  margin-right: 50px;
+  margin-right: 10%;
 }
 
 .img-logo {
@@ -60,7 +60,7 @@ body {
 .txt-title {
   font: bold 50px UTM-BryantLG;
   color: #11114E;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .img-title {
@@ -76,7 +76,7 @@ body {
 }
 
 .txt-desc {
-  font: 20px UTM-BryantLG;
+  font: 600 20px UTM-BryantLG;
   letter-spacing: -0.05em;
   color: #505353;
   height: 50px;
@@ -106,7 +106,7 @@ body {
 }
 
 .block-messenger {
-  font: 600 12px Open-Sans;
+  font: bold 12px Open-Sans;
   position: fixed;
   bottom: 90px;
   right: 60px;
@@ -153,7 +153,7 @@ body {
 }
 
 .web-name {
-  font: 600 12px;
+  font: 600 12px Open-Sans;
   color: #7F7F7F;
   margin: 5% 0 0 8% ;
 }
@@ -169,13 +169,13 @@ body {
 }
 
 .text-alert {
-  font-family: UTM-BryantLG;
+  font-family: Open-Sans;
   color: #505353;
   margin-left: 8%;
 }
 
 .login-mess {
-  font-family: UTM-BryantLG;
+  font-family: Open-Sans;
   width: 276px;
   height: 37px;
   background-color: #3184F7;
@@ -224,18 +224,17 @@ span.close {
 
 .courses .block-courses {
   display: flex;
-  flex-direction: row;
-  width: 85%;
-  margin: -110px auto 0 auto;
-
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: -120px;
 }
 
 .courses .content-courses {
-  width: 33%;
+  width: 370px;
   height: 470px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  margin: 0 2%;
+  margin: 20px;
   letter-spacing: -0.05em;
 }
 
@@ -258,8 +257,9 @@ span.close {
 }
 
 .img-courses {
-  width: 226px;
-  height: 120px;
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
 }
 
 .content-courses .foot .txt-content {
@@ -267,10 +267,11 @@ span.close {
   color: #B2D235;
   text-align: center;
   margin-top: 25px;
+  -webkit-text-stroke-width: 1px;
 }
 
 .content-courses .foot .txt-des {
-  font: bold 14px UTM-BryantLG;
+  font: bold 14px/20px UTM-BryantLG;
   text-align: center;
   color: #505353;
   line-height: 20px;
@@ -288,12 +289,13 @@ span.close {
   margin: 5% auto;
   font: bold 18px UTM-BryantLG;
   color: #FFFFFF;
+  -webkit-text-stroke-width: 1px;
 }
 
 .orther-courses .block-courses {
   display: flex;
-  flex-direction: row;
-  width: 85%;
+  flex-flow: row wrap;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -304,7 +306,7 @@ span.close {
   color: #11114E;
   text-align: center;
   margin-top: 110px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .orther-courses .title-courses hr {
@@ -328,11 +330,11 @@ span.close {
 }
 
 .orther-courses .content-courses {
-  width: 33%;
-  height: 395px;
+  width: 370px;
+  height: 400px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  margin: 0 2%;
+  margin: 20px;
 }
 
 .orther-courses .content-courses .head {
@@ -351,20 +353,19 @@ span.close {
   font: bold 40px UTM-BryantLG;
   letter-spacing: -0.02em;
   color: #90AB26;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .all-courses:hover {
-  font: bold 45px UTM-BryantLG;
+  font: bold 50px UTM-BryantLG;
   letter-spacing: -0.02em;
   color: #90AB26;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .all-courses img {
   width: 47.09px;
   height: 26.08px;
-  vertical-align: middle;
 }
 
 .center {
@@ -384,7 +385,7 @@ span.close {
 }
 
 .reason .block-left {
-  width: 45%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -401,18 +402,18 @@ span.close {
 
 .txt-reason {
   height: 60%;
-  padding-left: 14%;
+  align-self: flex-end;
+  margin-right: 100px;
 }
 
 .block-right {
-  width: 55%;
+  width: 50%;
 }
 
 .block-right .img-trans {
   height: 544px;
-  width: 700px;
+  width: 670px;
   position: absolute;
-  right: 0;
   top: 16%;
 }
 
@@ -433,9 +434,10 @@ span.close {
 }
 
 .txt-reason li span {
-  font: 18px UTM-BryantLG;
+  font: 20px/25px UTM-BryantLG;
   color: #FFFFFF;
-  margin-left: 11px;
+  margin-left: 5px;
+  letter-spacing: -0.05em;
 }
 
 .learn {
@@ -480,10 +482,7 @@ span.close {
   font: bold 60px UTM-BryantLG;
   display: flex;
   flex-direction: row;
-}
-
-.block-statistic {
-  width: 33%;
+  justify-content: space-evenly;
 }
 
 .content-statistic .title {
@@ -512,6 +511,7 @@ span.close {
   margin-left: 367px;
   display: flex;
   margin: 20px auto; 
+  -webkit-text-stroke-width: 0 !important;
 }
 
 .slide-cmt {
@@ -520,12 +520,20 @@ span.close {
   justify-content: center;
 }
 
-.element-parent {
+.element-parent-left {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-left: 30px;
-  align-items: center;
+  margin-right: 20px;
+  align-items: flex-end;
+}
+
+.element-parent-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 20px;
+  align-items: flex-start;
 }
 
 .element-cmt {
@@ -536,6 +544,7 @@ span.close {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
+  position: relative;
 }
 
 .element-cmt .hr {
@@ -546,10 +555,6 @@ span.close {
   margin: -16px 0 0 20px;
 }
 
-.block-cmt {
-  padding: 0 15px;
-}
-
 .block-cmt p {
   height: 80px;
   width: 480px;
@@ -557,6 +562,8 @@ span.close {
   font: 16px UTM-BryantLG;
   letter-spacing: -0.05em;
   color: #000000;
+  line-height: 20px;
+  padding: 0 12px;
 }
 
 .block-account {
@@ -567,6 +574,11 @@ span.close {
   margin-left: 20px;
 }
 
+.block-account img {
+  width: 60px;
+  height: 60px;
+}
+
 .block-account .block-infor {
   margin-left: 10px;
 }
@@ -574,6 +586,7 @@ span.close {
 .block-account .txt-name {
   font: bold 20px UTM-BryantLG;
   color: #11114E;
+  -webkit-text-stroke-width: 1px;
 }
 
 .block-account .txt-lang {
@@ -590,13 +603,14 @@ span.close {
   width: 30px;
   height: 30px;
   position: absolute;
-  margin-left: -11px;
+  margin: -5px 0 0 -11px;
 }
 
 .img-right {
   width: 30px;
   height: 30px;
-  margin: -9px 0 0 -6px;
+  position: absolute;
+  margin-left: 96%;
 }
 
 .footer {
@@ -643,6 +657,12 @@ span.close {
 .block-menu a {
   font: bold 23px UTM-BryantLG;
   color: #FFFFFF;
+}
+
+.block-menu a:hover {
+  font: bold 23px UTM-BryantLG;
+  color: #FFFFFF;
+  -webkit-text-stroke-width: 1px;
 }
 
 .block-contact {
